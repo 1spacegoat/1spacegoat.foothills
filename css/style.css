@@ -1,4 +1,4 @@
-/*!
+ /*!
  * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
@@ -22,6 +22,7 @@ footer {
     background-color: #ed8d1f;
 
 
+
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
@@ -39,6 +40,15 @@ footer {
     background-color:#a55e0d;
     border-color:#8e510b
     border-radius: 8px;
+  }
+
+  /* trying to place lg logo */
+  .navbar-img {
+    position: fixed;
+    padding-top: 125px;
+    
+
+
   }
 
 
