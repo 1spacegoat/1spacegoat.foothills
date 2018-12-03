@@ -6,7 +6,7 @@
 
 body {
   padding-top: 54px;
-  
+
 
 
 }
@@ -31,7 +31,29 @@ footer {
   }
   #footer a {
     color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #footer a:link{
+    color: #fff;
+    text-decoration: none;
+  }
 
+
+
+  #footer a:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color:#a55e0d;
+    border-color:#8e510b;
+    border-radius: 5px 5px 5px 5px;
+  }
+
+  #footer a:active{
+    color:blue;
+    text-decoration: none;
   }
   /* space footer for info pages */
   .padding {
@@ -129,12 +151,7 @@ footer {
     transition: all 0.2s ease-out;
 }
 
-.my-4 {
 
-
-
-
-}
 
 /*.card-img-overlay{
 
@@ -158,21 +175,34 @@ footer {
   color: #ffffff;
 }
 
-a.bg-orange:focus,a.bg-orange:hover,
-button.bg-orange:focus,button.bg-orange:hover{
-  background-color:#0062cc!important
-}
 
-/*-----end of new bg----*/
+
+
+
 /*-----background h1 tags-----*/
 .bg-orange-h{
   background-color:#ed8d1f;
   border-radius: 5px 5px 5px 5px;
-
   color: #ffffff;
 }
 
-
+/*---- background card header----*/
+.bg-orange-header{
+  background-color:#ed8d1f;
+  color: #ffffff;
+}
+.bg-orange-header:hover{color:#fff;background-color:#a55e0d;border-color:#8e510b}
+.bg-orange-header.focus,
+.bg-orange-header:focus{box-shadow:0 0 0 .2rem rgba(0,123,255,.5)}
+.bg-orange-header.disabled,
+.bg-orange-header:disabled{color:#fff;background-color:#007bff;border-color:#007bff}
+.bg-orange-header:not(:disabled):not(.disabled).active,
+.bg-orange-header:not(:disabled):not(.disabled):active,.show>
+.bg-orange-header.dropdown-toggle{color:#fff;background-color:#0062cc;border-color:#005cbf}
+.bg-orange-header:not(:disabled):not(.disabled).active:focus,
+.bg-orange-header:not(:disabled):not(.disabled):active:focus,.show>
+.bg-orange-header.dropdown-toggle:focus{box-shadow:0 0 0 .2rem}
+a.bg-orange-header:hover{color:#fff;background-color:#a55e0d;border-color:#8e510b}
 
 /* button code */
 .btn-orange{
@@ -181,10 +211,6 @@ button.bg-orange:focus,button.bg-orange:hover{
   color:white;
 
 }
-
-
-
-
 .btn-orange:hover{color:#fff;background-color:#a55e0d;border-color:#8e510b}
 .btn-orange.focus,
 .btn-orange:focus{box-shadow:0 0 0 .2rem rgba(0,123,255,.5)}
@@ -196,3 +222,22 @@ button.bg-orange:focus,button.bg-orange:hover{
 .btn-orange:not(:disabled):not(.disabled).active:focus,
 .btn-orange:not(:disabled):not(.disabled):active:focus,.show>
 .btn-orange.dropdown-toggle:focus{box-shadow:0 0 0 .2rem}
+
+
+
+a:link{
+  color: #000;
+  text-decoration: none;
+}
+
+
+
+a:hover{
+  color: #ed8d1f;
+  text-decoration: none;
+}
+
+a:active{
+  color:blue;
+  text-decoration: none;
+}
