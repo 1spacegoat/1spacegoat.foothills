@@ -9,6 +9,7 @@ body {
 
 
 
+
 }
 
 @media (min-width: 992px) {
@@ -58,6 +59,12 @@ footer {
   /* space footer for info pages */
   .padding {
     padding-top: 10%;
+
+    }
+
+    .info{
+      padding:10%;
+      border-radius: 5px 5px 5px 5px;
 
     }
 
@@ -240,4 +247,8 @@ a:hover{
 a:active{
   color:blue;
   text-decoration: none;
+}
+
+.shadow{
+  box-shadow:0 .6rem 3rem rgba(0,0,0,.70)!important
 }
