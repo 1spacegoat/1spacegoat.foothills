@@ -6,6 +6,9 @@
 
 body {
   padding-top: 54px;
+  
+
+
 }
 
 @media (min-width: 992px) {
@@ -34,8 +37,8 @@ footer {
   .padding {
     padding-top: 10%;
 
+    }
 
-  }
 /* nav bar */
 .navbar-custom {
     background-color: #ed8d1f;
@@ -95,7 +98,7 @@ footer {
 
 .portfolio-item {
   margin-bottom: 30px;
-  
+
 
 }
 .carousel-fullscreen .carousel-inner .item {
@@ -127,14 +130,50 @@ footer {
 }
 
 .my-4 {
-  text-align: center;
+
+
+
 
 }
+
+/*.card-img-overlay{
+
+  width:100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.2;
+  transition: all 0.2s ease-out;
+}*/
+
 .display-4{
   text-align: center;
   font-weight: bold;
 
 }
+/*---make a background for  text over image ---*/
+.bg-orange{
+  background-color:#ed8d1f;
+  border-radius: 5px 5px 5px 5px;
+  opacity: .8;
+  color: #ffffff;
+}
+
+a.bg-orange:focus,a.bg-orange:hover,
+button.bg-orange:focus,button.bg-orange:hover{
+  background-color:#0062cc!important
+}
+
+/*-----end of new bg----*/
+/*-----background h1 tags-----*/
+.bg-orange-h{
+  background-color:#ed8d1f;
+  border-radius: 5px 5px 5px 5px;
+
+  color: #ffffff;
+}
+
+
+
 /* button code */
 .btn-orange{
   background: #ed8d1f;
@@ -142,6 +181,8 @@ footer {
   color:white;
 
 }
+
+
 
 
 .btn-orange:hover{color:#fff;background-color:#a55e0d;border-color:#8e510b}
