@@ -70,8 +70,12 @@ footer {
     }
 
 /* nav bar */
+#navbar {
+  transition: .3s;
+}
 .navbar-custom {
     background-color: #ed8d1f;
+
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
@@ -89,10 +93,9 @@ footer {
     color: #ffffff;
     background-color:#a55e0d;
     border-color:#8e510b
+}
 
 
-
-  }
 
   /* trying to place lg logo */
 .navbar-img {
@@ -252,4 +255,16 @@ a:active{
 
 .shadow{
   box-shadow:0 .6rem 3rem rgba(0,0,0,.70)!important
+}
+/* paragraph text padding */
+
+.text-indent{
+  text-indent:2em;
+}
+
+
+/* image border */
+.img-thumbnail{
+  background-color: #ed8d1f;
+  border-opacity: .5;
 }
