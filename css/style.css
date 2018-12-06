@@ -252,10 +252,16 @@ a:active{
   color:blue;
   text-decoration: none;
 }
-
+/* card and nav shadows */
 .shadow{
   box-shadow:0 .6rem 3rem rgba(0,0,0,.70)!important
 }
+
+/* trying to make headers look more texured */
+
+
+
+
 /* paragraph text padding */
 
 .text-indent{
@@ -266,5 +272,5 @@ a:active{
 /* image border */
 .img-thumbnail{
   background-color: #ed8d1f;
-  
+
 }
