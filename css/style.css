@@ -235,23 +235,31 @@ a.bg-orange-header:hover{color:#fff;background-color:#a55e0d;border-color:#8e510
 .btn-orange.dropdown-toggle:focus{box-shadow:0 0 0 .2rem}
 
 
-
+/* make the cards hover colors go from black to orange */
 a:link{
   color: #000;
   text-decoration: none;
 }
 
-
-
 a:hover{
   color: #ed8d1f;
   text-decoration: none;
-
 }
 
+}
+a:hover{
+  color: #000;
+}
 a:active{
   color:blue;
   text-decoration: none;
+}
+#p a:hover{
+  color:#ed8d1f;
+}
+
+#p {
+  color: #000;
 }
 /* card and nav shadows */
 .shadow{
@@ -261,8 +269,8 @@ a:active{
 /* trying to cause the photos to move  */
 
 .trans:hover{
-  width: 101%;
-  hieght: 101%;
+  width: 102%;
+  hieght: 102%;
 }
 
 
