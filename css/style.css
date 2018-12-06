@@ -246,6 +246,7 @@ a:link{
 a:hover{
   color: #ed8d1f;
   text-decoration: none;
+
 }
 
 a:active{
@@ -257,9 +258,12 @@ a:active{
   box-shadow:0 .6rem 3rem rgba(0,0,0,.70)!important
 }
 
-/* trying to make headers look more texured */
+/* trying to cause the photos to move  */
 
-
+.trans:hover{
+  width: 105%;
+  hieght: 105%;
+}
 
 
 /* paragraph text padding */
