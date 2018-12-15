@@ -95,8 +95,8 @@ footer {
 
   /* trying to place lg logo */
 .navbar-img {
-    position: fixed;
-    padding-top: 80px;
+    position: relative;
+    
 }
 .dropdown-menu {
   background: #ed8d1f;
