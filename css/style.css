@@ -96,7 +96,7 @@ footer {
   /* trying to place lg logo */
 .navbar-img {
     position: fixed ;
-    padding-top: 30px;
+    padding-top: 28px;
     height: auto;
     width: auto;
 
@@ -116,8 +116,12 @@ footer {
 
 }
 .img2{
-  margin-bottom:-16px;
+
+
+
 }
+
+
 
 
 
