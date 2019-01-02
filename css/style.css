@@ -226,7 +226,7 @@ a.bg-orange-header:hover{color:#fff;background-color:#a55e0d;border-color:#8e510
 .btn-orange{
   background: #ed8d1f;
   border-color:#ed8d1f;
-  color:white;
+  color:#fff;
 
 }
 .btn-orange:hover{color:#fff;background-color:#a55e0d;border-color:#8e510b}
@@ -257,9 +257,9 @@ a:hover{
 a:hover{
   color: #000;
 }
-a:active{
+/*a:active{
   color:black;
-  text-decoration: none;
+  text-decoration: none;*/
 }
 #p a:hover{
   color:#ed8d1f;
